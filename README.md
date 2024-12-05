@@ -5,13 +5,16 @@
 This project provides a RESTful API to manage real estate properties for a fictional real estate agency. It allows for the creation of properties, searching for properties based on various filters, and includes a bonus feature to find properties near a specified geolocation.
 
 The API supports the following functionalities:
-- Create properties (House or Apartment)
+- CRUD properties (House or Apartment)
 - Search properties based on filters (type, address, size, number of bedrooms, price)
 - Nearby: Search for properties within a specific area defined by latitude, longitude, and radius.
 
 ## Features
 
 - **Create Property**: Adds a new real estate property to the database with its type, address, size, number of bedrooms, price, and geolocation.
+- **Get All Properties**: Retrieve a list of all properties in the database.
+- **Update Property**: Modify details of an existing property by its ID.
+- **Delete Property**: Remove a property from the database by its ID
 - **Search Properties**: Allows for searching properties by type, address, size, number of bedrooms, and price.
 - **Nearby Feature**: Search for properties within a specified radius from a given latitude and longitude.
 
