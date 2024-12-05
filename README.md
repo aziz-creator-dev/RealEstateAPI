@@ -36,7 +36,7 @@ Make sure you have the following installed on your system:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/real-estate-api.git
-   cd real-estate-api
+   cd RealEstateAPI
 2. **Install the required dependencies**:
     composer install
 3. **Create the .env**:
